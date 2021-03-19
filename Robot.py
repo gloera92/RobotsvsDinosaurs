@@ -5,3 +5,6 @@ class Robot:
         self.power_level = 100
         self.weapon = weapon
         self.attack_power = 40
+
+    def Attack(self, dinoToAttack):
+
