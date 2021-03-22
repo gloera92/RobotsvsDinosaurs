@@ -1,3 +1,6 @@
+from Herd import Herd
+
+
 class Robot:
     def __init__(self, name, weapon):
         self.name = name
@@ -6,5 +9,9 @@ class Robot:
         self.weapon = weapon
         self.attack_power = 40
 
-    def Attack(self, dinoToAttack):
+    def robot_attack(self):
+        if Herd(self.dino_army[0])
 
+    def robot_damage_taken(self, health, attack_power):
+        self.health = health - attack_power
+        return self
